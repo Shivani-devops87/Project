@@ -1,0 +1,48 @@
+============================================================
+🌱 GreenClassify Deep Learning - Vegetable Classifier
+============================================================
+📍 Server starting at: http://127.0.0.1:5000
+📂 Upload folder: static/uploads
+🎯 Supported vegetables: 15
+============================================================
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.51:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 881-612-933
+============================================================
+🌱 GreenClassify Deep Learning - Vegetable Classifier
+============================================================
+📍 Server starting at: http://127.0.0.1:5000
+📂 Upload folder: static/uploads
+🎯 Supported vegetables: 15
+============================================================
+Traceback (most recent call last):
+  File "/Users/apple/Downloads/Greenclassify-Deep-Learning-project-2026-main/app.py", line 71, in <module>
+    app.run(debug=True, host='0.0.0.0', port=5000)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Downloads/Greenclassify-Deep-Learning-project-2026-main/venv/lib/python3.14/site-packages/flask/app.py", line 612, in run
+    run_simple(t.cast(str, host), port, self, **options)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Downloads/Greenclassify-Deep-Learning-project-2026-main/venv/lib/python3.14/site-packages/werkzeug/serving.py", line 1099, in run_simple
+    run_with_reloader(
+    ~~~~~~~~~~~~~~~~~^
+        srv.serve_forever,
+        ^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        reloader_type=reloader_type,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/apple/Downloads/Greenclassify-Deep-Learning-project-2026-main/venv/lib/python3.14/site-packages/werkzeug/_reloader.py", line 446, in run_with_reloader
+    ensure_echo_on()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/apple/Downloads/Greenclassify-Deep-Learning-project-2026-main/venv/lib/python3.14/site-packages/werkzeug/_reloader.py", line 426, in ensure_echo_on
+    termios.tcsetattr(sys.stdin, termios.TCSANOW, attributes)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+termios.error: (4, 'Interrupted system call')

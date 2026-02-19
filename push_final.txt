@@ -1,0 +1,11 @@
+Pushing to https://github.com/Shivani-devops87/Project.git
+POST git-receive-pack (chunked)
+remote: error: GH008: Your push referenced at least 1000 unknown Git LFS objects:        
+remote:     b1b7d4f66378b53e81c706d123ab8fe920cd2dcceb279820ff116506da2108cd        
+remote:     b43d611fe2ad46833c7a7694d0ca52eab5600c76322bff8e4d1e7cff114f1a1f        
+remote:     e778ff260d20cadb886a13d1e887772afc19a6d00f12f8e54bcf667af3e1b87b        
+remote:     ...        
+remote: Try to push them with 'git lfs push --all'.        
+To https://github.com/Shivani-devops87/Project.git
+ ! [remote rejected]   main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/Shivani-devops87/Project.git'
